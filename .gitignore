@@ -1,4 +1,13 @@
 *
 !.gitignore
 !README.md
-!SAENAL_Market_Ecommerce_Analytics_CaseStudy.pdf
+!SAENAL_Analysis_v3.ipynb
+!SAENAL_Report_v3.pdf
+!pipeline.py
+!rfm.py
+!category_matrix.py
+!model_compare.py
+!vendor_concentration.py
+!make_indexed_charts.py
+!build_notebook.py
+!build_report.py
