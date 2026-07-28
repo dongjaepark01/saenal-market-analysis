@@ -1,2 +1,4 @@
-Saenal_market_*.xlsx
-.ipynb_checkpoints/
+*
+!.gitignore
+!README.md
+!SAENAL_Market_Ecommerce_Analytics_CaseStudy.pdf

@@ -69,7 +69,7 @@ analysis pipeline that answers eight questions across four areas:
 - **New:** stripped hidden non-breaking-space characters from `Category`/`Company`/`Discount Target` labels
   that silently broke exact-match filtering (though not `groupby`, which is why v2 didn't catch it)
 - **New:** found and fixed a bracket-extraction bug where a promotional milestone SKU
-  (`[아임굿 1st 원데이 이벤트 ...]`) was miscounted as its own vendor — a ~₩930M chunk that also cascaded
+  (`[Vendor A 1st 원데이 이벤트 ...]`) was miscounted as its own vendor — a ~₩930M chunk that also cascaded
   into a category-mislabeling issue (see below)
 
 ### Exploratory Data Analysis (EDA)
@@ -150,7 +150,7 @@ analysis pipeline that answers eight questions across four areas:
    July–August trough
 4. **Audit and reactivate the "Declining Stars" SKU segment** *(new)* — 196 SKUs holding 23% of historical
    revenue have gone quiet; check stock and placement before writing this off as churn
-5. **Cap single-vendor exposure, starting with 아임굿** *(new)* — currently 78% of the 건강식품 category
+5. **Cap single-vendor exposure, starting with Vendor A** *(new)* — currently 78% of the 건강식품 category
    and 21.8% of platform revenue sit with one vendor
 6. **Standardize data infrastructure** — mandate membership capture at checkout and consistent product
    naming; automate a check on the "Unknown" bucket's size given how much one mislabeled SKU can distort
